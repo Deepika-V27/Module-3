@@ -6,7 +6,7 @@
 ### AIM  
 To write a Python program to create a tuple containing all multiples of 5 up to a given number **N**.
 
----
+
 
 ### ALGORITHM
 
@@ -17,13 +17,21 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 5. Print the resulting tuple.  
 6. Terminate the program.
 
----
+
 
 ### PROGRAM
 
 ```
+def create_tuple(N):
+    multiples_of_5 = tuple(i for i in range(5, N, 5))
+    return multiples_of_5
+N = int(input())
+result = create_tuple(N)
+print(f"{result}")
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/9c4ac08c-cafc-48ea-9c81-48bc9a7aaf87)
 
 ### RESULT
+Thus the python program for printing a tuple with numbers that are multiples of 5 up to n, was implemented and executed successfully.
