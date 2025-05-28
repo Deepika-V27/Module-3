@@ -23,8 +23,13 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```
+    str2=input()
+    str3=str1.replace(replace_str,str2)
+    print(f"The old string is {str1}\nthe new string is {str3}")
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/86660e7d-a5d5-437d-9be7-666a78427fbd)
 
 ### RESULT
+Thus the python program of find and replace is implemented and executed successfully.
